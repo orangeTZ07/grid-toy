@@ -23,8 +23,8 @@ const grid = document.getElementById('grid');
     cell.className = 'cell';
 
    if (Math.random() < INVERT_PROBABILITY) {
-   cell.classes.add("black");
-   }//
+   cell.classList.add("black");
+   }
 
      
     // Handle both click and drag events
@@ -44,4 +44,3 @@ const grid = document.getElementById('grid');
   // Hide the start button after grid is created
   startButton.style.display = 'none';
 });
-
